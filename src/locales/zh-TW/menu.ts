@@ -1,0 +1,15 @@
+export default {
+  'menu.welcome': '歡迎',
+  'menu.home': '首頁',
+  'menu.login': '登錄',
+  'menu.exception.403': '403',
+  'menu.exception.404': '404',
+  'menu.exception.500': '500',
+  'menu.register': '註冊',
+  'menu.register.result': '註冊結果',
+  'menu.account.logout': '退出登錄',
+  'menu.exception': '异常页',
+  'menu.exception.not-permission': '403',
+  'menu.exception.not-find': '404',
+  'menu.exception.server-error': '500',
+};

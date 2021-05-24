@@ -1,0 +1,42 @@
+// https://umijs.org/config/
+import { defineConfig } from 'umi';
+import defaultSettings from './defaultSettings';
+import routes from './routes';
+
+// const { REACT_APP_ENV } = process.env;
+
+export default defineConfig({
+  hash: true,
+  antd: {},
+  dva: {
+    hmr: true,
+  },
+  history: {
+    type: 'browser',
+  },
+  locale: {
+    // default zh-CN
+    default: 'zh-CN',
+    antd: true,
+    // default true, when it is true, will use `navigator.language` overwrite default
+    baseNavigator: true,
+  },
+  dynamicImport: {
+    loading: '@/components/PageLoading/index',
+  },
+  targets: {
+    ie: 11,
+  },
+  routes,
+  theme: {
+    'primary-color': defaultSettings.primaryColor,
+  },
+  title: false,
+  ignoreMomentLocale: true,
+  manifest: {
+    basePath: '/',
+  },
+  // 快速刷新功能 https://umijs.org/config#fastrefresh
+  fastRefresh: {},
+  esbuild: {},
+});
