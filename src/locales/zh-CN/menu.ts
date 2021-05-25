@@ -3,6 +3,8 @@ export default {
   'menu.dashboard': '首页统计',
   'menu.usermanager': '用户管理',
   'menu.goodsmanager': '商品管理',
+  'menu.categorymanager': '分类管理',
+  'menu.ordermanager': '订单管理',
   'menu.home': '首页',
   'menu.login': '登录',
   'menu.register': '注册',

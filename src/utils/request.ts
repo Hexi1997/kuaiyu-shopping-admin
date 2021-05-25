@@ -2,6 +2,7 @@
 import { extend, RequestOptionsInit } from 'umi-request';
 import { message } from 'antd';
 import storageUtils from './storageUtils';
+import { history } from 'umi';
 
 /**
  * 请求基地址
@@ -55,6 +56,10 @@ const errorHandler = async (error: { response: Response }): Promise<Response> =>
       if (message) {
         errorText = message;
       }
+    }
+    if (status === 401) {
+      errorText = 'token已过期，请重新登录';
+      history.replace('/user/login');
     }
     message.error(errorText);
   } else if (!response) {

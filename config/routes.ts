@@ -46,6 +46,18 @@
                 component: './GoodsManager',
               },
               {
+                path: '/categorymanager',
+                name: 'categorymanager',
+                icon: 'ApartmentOutlined',
+                component: './CategoryManager',
+              },
+              {
+                path: '/ordermanager',
+                name: 'ordermanager',
+                icon: 'ProfileOutlined',
+                component: './OrderManager',
+              },
+              {
                 component: './404',
               },
             ],

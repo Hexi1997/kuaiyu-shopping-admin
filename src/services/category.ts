@@ -12,4 +12,33 @@ const getCategories = (type: 'all' | 'notLocked' = 'notLocked') => {
   }
 };
 
-export { getCategories };
+export type AddCategoryParamType = {
+  name: string;
+  pid?: number;
+  group?: 'goods' | 'menus';
+};
+
+/**
+ * 添加分类
+ * @param params 参数对象
+ */
+const addCategory = (params: AddCategoryParamType) => {
+  return request('/admin/category', {
+    method: 'POST',
+    data: params,
+  });
+};
+
+/**
+ * 更新分类
+ * @param category_id 分类id
+ * @param data 更新内容
+ */
+const updateCategory = (category_id: number, data: { name: string; pid?: number }) => {
+  return request(`/admin/category/${category_id}`, {
+    method: 'PUT',
+    data,
+  });
+};
+
+export { getCategories, addCategory, updateCategory };

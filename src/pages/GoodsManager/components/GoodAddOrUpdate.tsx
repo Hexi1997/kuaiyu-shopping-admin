@@ -3,7 +3,7 @@ import { message, Modal, Cascader, Form } from 'antd';
 import Skeleton from '@ant-design/pro-skeleton';
 import ProForm, { ProFormDigit, ProFormText, StepsForm } from '@ant-design/pro-form';
 import { GoodItem } from '../index';
-import AliyunOssUpload, { OSSReturnType } from '@/components/AliyunOssUpload';
+import AliyunOssUpload from '@/components/AliyunOssUpload';
 import { useMount, useToggle } from 'ahooks';
 import { getCategories } from '@/services/category';
 import { Button } from 'antd';
