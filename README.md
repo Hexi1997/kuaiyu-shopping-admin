@@ -1,57 +1,37 @@
-# Ant Design Pro
+## 项目介绍
 
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
+* 一个react技术栈的商城管理系统
+* 技术栈
 
-## Environment Prepare
+  * react
+* hooks
+  * redux
+* typescript
+  * dva
+* umi
+  * antdpro
+* ahooks
+  * antd procomponents
+* 基于阿里云oss进行图片上传
+  * 富文本编辑器使用braft-editor
+* 网络请求基于umi-request进行了进一步封装
 
-Install `node_modules`:
+* 项目预览地址：https://kuaiyu-shopping-admin.pages.dev/
+* 项目基于开源api：https://www.showdoc.com.cn/1207745568269674?page_id=6094279351627422
 
-```bash
-npm install
-```
+## 开发进度
 
-or
+已开发
 
-```bash
-yarn
-```
+* 登录模块
+* 首页统计模块
+* 用户管理模块
+* 商品管理模块
+* 分类管理模块
+* 订单管理模块
 
-## Provided Scripts
+待开发
 
-Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
+* 轮播管理模块
+* 短信验证码登录模块
 
-Scripts provided in `package.json`. It's safe to modify or add additional script:
-
-### Start project
-
-```bash
-npm start
-```
-
-### Build project
-
-```bash
-npm run build
-```
-
-### Check code style
-
-```bash
-npm run lint
-```
-
-You can also use script to auto fix some lint error:
-
-```bash
-npm run lint:fix
-```
-
-### Test code
-
-```bash
-npm test
-```
-
-## More
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
