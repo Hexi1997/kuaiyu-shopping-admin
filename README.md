@@ -4,17 +4,17 @@
 * 技术栈
 
   * react
-* hooks
+  * hooks
   * redux
-* typescript
+  * typescript
   * dva
-* umi
+  * umi
   * antdpro
-* ahooks
+  * ahooks
   * antd procomponents
-* 基于阿里云oss进行图片上传
+  * 基于阿里云oss进行图片上传
   * 富文本编辑器使用braft-editor
-* 网络请求基于umi-request进行了进一步封装
+  * 网络请求基于umi-request进行了进一步封装
 
 * 项目预览地址：https://kuaiyu-shopping-admin.pages.dev/
 * 项目基于开源api：https://www.showdoc.com.cn/1207745568269674?page_id=6094279351627422
