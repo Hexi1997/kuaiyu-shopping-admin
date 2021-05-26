@@ -5,6 +5,7 @@ export default {
   'menu.goodsmanager': '商品管理',
   'menu.categorymanager': '分类管理',
   'menu.ordermanager': '订单管理',
+  'menu.swipermanager': '轮播管理',
   'menu.home': '首页',
   'menu.login': '登录',
   'menu.register': '注册',

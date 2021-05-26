@@ -58,6 +58,7 @@ const GoodsManager = memo(() => {
   const handleAdd = () => {
     //新建，弹出新建页面
     setModalVisibile(true);
+    setEditItem(undefined);
     setType('add');
   };
 

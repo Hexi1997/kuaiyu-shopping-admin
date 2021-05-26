@@ -58,6 +58,12 @@
                 component: './OrderManager',
               },
               {
+                path: '/swipermanager',
+                name: 'swipermanager',
+                icon: 'PictureOutlined',
+                component: './SwiperManager',
+              },
+              {
                 component: './404',
               },
             ],
